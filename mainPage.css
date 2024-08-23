@@ -23,15 +23,30 @@ body {
   text-align: center;
 }
 #infoBtn{
+  position: absolute;
   font-size: 40px;
-  text-align: right;
+  right: 10px;
+  top: 0;
   cursor: pointer;
+  background-color: transparent;
+  border: 0;
 }
+#retryBtn{
+  position: absolute;
+  font-size: 40px;
+  right: 80px;
+  top: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+}
+
 #infoContainer{
   position: absolute;
   display: none;
   width: 300px;
   height: 500px;
+  top: 60px;
   right: 0;
   background-color: white;
 }
