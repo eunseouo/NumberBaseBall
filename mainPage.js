@@ -44,7 +44,7 @@ document.addEventListener("keydown", function handleInput(event) {
     handleBackspace();
   }
 
-  // 엔터 키 처리 (num4 위치에서)
+  // 엔터 키 처리 
   if (key === "Enter" && currentPosition === 5) {
     handleEnter();
   }
