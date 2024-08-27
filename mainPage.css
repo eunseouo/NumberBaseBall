@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "KIMM_Bold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  background-color: rgb(215, 230, 250);
+  font-family: "KIMM_Bold";
+}
+#body {
+  width: 60%;
+  margin: 10px auto;
+	/* border: 1px solid black; */
+}
+#body h1 {
+  text-align: center;
+}
+#infoBtn{
+  position: absolute;
+  font-size: 40px;
+  right: 10px;
+  top: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+}
+#retryBtn{
+  position: absolute;
+  font-size: 40px;
+  right: 80px;
+  top: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+}
+
+#infoContainer{
+  position: absolute;
+  display: none;
+  width: 300px;
+  height: 500px;
+  top: 60px;
+  right: 0;
+  background-color: white;
+}
+#inputContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+  width: 70%;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+  margin: 10px auto;
+  border-radius: 20px;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.iptNum{
+	width: 90px;
+	height: 90px;
+	background-color: rgb(175, 208, 199); /*색상... 변경 요망*/
+	border-radius: 20px;
+	line-height: 90px;
+	text-align: center;
+	margin: auto;
+}
+
+.outputContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width:90%;
+  min-height: 80px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.outputBox{
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  line-height: 40px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+  flex-basis: 300px;
+  
+}
+
+
+
+.index{
+  flex-grow: 1;
+  /* background-color: #efefef; */
+  line-height: 70px;
+  text-align: center;
+  border: 4px dotted black;
+}
+.iptNumBox{
+  font-size: 25px;
+  color: rgb(88, 88, 88);
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.output-iptNum{
+  flex-grow: 2;
+}
+.boxContainer{
+  display: flex;
+  flex-grow: 4;
+  flex-direction: column;
+}
+.resultBox{
+  display: flex;
+  justify-content: space-around;
+}
+.resultCircle {
+  border: 1px solid rgb(88, 88, 88);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+}
+
+.strike {
+  background-color: rgb(255, 255, 137);
+}
+
+.ball {
+  background-color: rgb(108, 201, 255);
+}
+
+.out {
+  background-color: rgb(255, 141, 141);
+}
+
